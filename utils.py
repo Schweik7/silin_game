@@ -52,9 +52,6 @@ class PuzzleGenerator:
                 self.grid[i][j] = cube
                 self.cubes.append(cube)
 
-        # After initial assignment, ensure consistency for the bottom and right edges
-        # (This is already handled by setting 'up' and 'left' based on neighbors)
-
     def print_initial_solution(self):
         """
         Prints the grid of cubes in a readable rectangular format.
